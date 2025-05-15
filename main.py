@@ -53,7 +53,7 @@ def handle_message(update: Update, context: CallbackContext):
 
 # Main Function
 def main():
-    updater = Updater(7238601494:AAElbkEz7lEtzYCLubTzphg6DnIGsdQZCWI", use_context=True)
+    updater = Updater("7238601494:AAGYUYiviwpI5OCbfp8nDnwO_XnXBjCH_f4", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
